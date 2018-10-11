@@ -1,5 +1,6 @@
 # Computed Tomography Image Reconstruction
-Implemented on the occasion of Ferienakedemie 2018 - Learning the filter performed in the Fourier space, before the IFFT and before applying the back projection
+Implemented on the occasion of Ferienakedemie 2018 - Learning the filter performed in the Fourier space, before the IFFT and before applying the back projection  
+![enter image description here](https://github.com/ussaema/CT_Image_Reconstruction/blob/master/system.png?raw=true)
 ________________________________________________
 Using pyconrad API provided by Department of Computer Science 5 - Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
 ________________________________________________
