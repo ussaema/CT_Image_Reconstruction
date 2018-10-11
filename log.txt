@@ -1,0 +1,268 @@
+nohup: ignoring input
+2018-10-03 23:27:04.185623: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:964] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-10-03 23:27:04.186156: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1455] Found device 0 with properties: 
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.7845
+pciBusID: 0000:02:00.0
+totalMemory: 7,93GiB freeMemory: 7,83GiB
+2018-10-03 23:27:04.186175: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1534] Adding visible gpu devices: 0
+2018-10-03 23:27:04.415619: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-10-03 23:27:04.415665: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2018-10-03 23:27:04.415674: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2018-10-03 23:27:04.415878: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1147] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 4059 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:02:00.0, compute capability: 6.1)
+2018-10-03 23:27:07.328697: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1534] Adding visible gpu devices: 0
+2018-10-03 23:27:07.328756: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-10-03 23:27:07.328766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2018-10-03 23:27:07.328773: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2018-10-03 23:27:07.328911: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1147] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 4059 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:02:00.0, compute capability: 6.1)
+/usr/local/cuda-9.0/lib64/libOpenCL.so.1: version `OPENCL_2.1' not found (required by /usr/lib/python3/dist-packages/pyopencl/_cffi.abi3.so)
+start training loop
+epoch:  0 training loss:  1819217400.0  validation loss:  6495840000.0
+epoch 0: pass
+epoch:  50 training loss:  1741671200.0  validation loss:  2702325200.0
+epoch:  100 training loss:  1666089000.0  validation loss:  1565532400.0
+epoch:  150 training loss:  1592251400.0  validation loss:  1399747100.0
+epoch:  200 training loss:  1520106500.0  validation loss:  810531460.0
+epoch 200: pass
+epoch:  250 training loss:  1449650000.0  validation loss:  773095400.0
+epoch:  300 training loss:  1380892900.0  validation loss:  1218677200.0
+epoch:  350 training loss:  1313825400.0  validation loss:  806710140.0
+epoch:  400 training loss:  1248441300.0  validation loss:  1122804700.0
+epoch 400: pass
+epoch:  450 training loss:  1184742700.0  validation loss:  855677900.0
+epoch:  500 training loss:  1122724900.0  validation loss:  1346812400.0
+epoch:  550 training loss:  1062389100.0  validation loss:  1206507500.0
+epoch:  600 training loss:  1003739140.0  validation loss:  3041845800.0
+epoch 600: pass
+epoch:  650 training loss:  946772800.0  validation loss:  1197596200.0
+epoch:  700 training loss:  891492000.0  validation loss:  1020201100.0
+epoch:  750 training loss:  837908100.0  validation loss:  1031938400.0
+epoch:  800 training loss:  786003700.0  validation loss:  1118891000.0
+epoch 800: pass
+epoch:  850 training loss:  735775600.0  validation loss:  882708200.0
+epoch:  900 training loss:  687227800.0  validation loss:  1189500200.0
+epoch:  950 training loss:  640365250.0  validation loss:  565767400.0
+epoch:  1000 training loss:  595181600.0  validation loss:  753009900.0
+epoch 1000: pass
+epoch:  1050 training loss:  551671800.0  validation loss:  1338674200.0
+epoch:  1100 training loss:  509835700.0  validation loss:  368693730.0
+epoch:  1150 training loss:  469682300.0  validation loss:  288224960.0
+epoch:  1200 training loss:  431204480.0  validation loss:  264600460.0
+epoch 1200: pass
+epoch:  1250 training loss:  394397800.0  validation loss:  1056133400.0
+epoch:  1300 training loss:  359265200.0  validation loss:  518617730.0
+epoch:  1350 training loss:  325802430.0  validation loss:  293345860.0
+epoch:  1400 training loss:  294008060.0  validation loss:  865329540.0
+epoch 1400: pass
+epoch:  1450 training loss:  263881600.0  validation loss:  254903900.0
+epoch:  1500 training loss:  235419340.0  validation loss:  207765400.0
+epoch:  1550 training loss:  208618880.0  validation loss:  242207710.0
+epoch:  1600 training loss:  183478860.0  validation loss:  162052130.0
+epoch 1600: pass
+epoch:  1650 training loss:  159994560.0  validation loss:  436731740.0
+epoch:  1700 training loss:  138164510.0  validation loss:  159847520.0
+epoch:  1750 training loss:  117982950.0  validation loss:  85622790.0
+epoch:  1800 training loss:  99446300.0  validation loss:  123720410.0
+epoch 1800: pass
+epoch:  1850 training loss:  82549020.0  validation loss:  109709870.0
+epoch:  1900 training loss:  67284720.0  validation loss:  43599580.0
+epoch:  1950 training loss:  53645650.0  validation loss:  133945780.0
+epoch:  2000 training loss:  41622384.0  validation loss:  42428732.0
+epoch 2000: pass
+epoch:  2050 training loss:  31202926.0  validation loss:  76692030.0
+epoch:  2100 training loss:  22371780.0  validation loss:  27511200.0
+epoch:  2150 training loss:  15108173.0  validation loss:  13349130.0
+epoch:  2200 training loss:  9382824.0  validation loss:  11948592.0
+epoch 2200: pass
+epoch:  2250 training loss:  5151802.5  validation loss:  5419205.0
+epoch:  2300 training loss:  2343086.8  validation loss:  3502613.0
+epoch:  2350 training loss:  822794.4  validation loss:  1160099.2
+epoch:  2400 training loss:  300788.44  validation loss:  669078.6
+epoch 2400: pass
+epoch:  2450 training loss:  205538.38  validation loss:  173428.31
+epoch:  2500 training loss:  152750.22  validation loss:  527007.9
+epoch:  2550 training loss:  116178.45  validation loss:  64448.223
+epoch:  2600 training loss:  86888.08  validation loss:  306363.2
+epoch 2600: pass
+epoch:  2650 training loss:  62560.34  validation loss:  55152.062
+epoch:  2700 training loss:  43005.93  validation loss:  323741.8
+epoch:  2750 training loss:  28036.117  validation loss:  247693.95
+epoch:  2800 training loss:  17410.795  validation loss:  53233.375
+epoch 2800: pass
+epoch:  2850 training loss:  10810.288  validation loss:  30311.39
+epoch:  2900 training loss:  7387.887  validation loss:  75510.61
+epoch:  2950 training loss:  5600.9985  validation loss:  16653.586
+epoch:  3000 training loss:  4277.127  validation loss:  6482.117
+epoch 3000: pass
+epoch:  3050 training loss:  3200.1484  validation loss:  50193.547
+epoch:  3100 training loss:  2350.0942  validation loss:  6711.9004
+epoch:  3150 training loss:  1708.4087  validation loss:  14058.154
+epoch:  3200 training loss:  1230.3855  validation loss:  2735.2246
+epoch 3200: pass
+epoch:  3250 training loss:  870.1149  validation loss:  6389.1846
+epoch:  3300 training loss:  600.0321  validation loss:  2324.4475
+epoch:  3350 training loss:  407.64813  validation loss:  3610.9553
+epoch:  3400 training loss:  281.0791  validation loss:  1616.3787
+epoch 3400: pass
+epoch:  3450 training loss:  203.87885  validation loss:  234.5876
+epoch:  3500 training loss:  156.20654  validation loss:  1411.4585
+epoch:  3550 training loss:  123.61948  validation loss:  478.7719
+epoch:  3600 training loss:  99.43533  validation loss:  2582.9612
+epoch 3600: pass
+epoch:  3650 training loss:  80.55643  validation loss:  101.54414
+epoch:  3700 training loss:  66.05245  validation loss:  262.78125
+epoch:  3750 training loss:  55.655556  validation loss:  200.42844
+epoch:  3800 training loss:  48.818085  validation loss:  41.059242
+epoch 3800: pass
+epoch:  3850 training loss:  44.516586  validation loss:  67.82705
+epoch:  3900 training loss:  41.624077  validation loss:  77.70724
+epoch:  3950 training loss:  39.55594  validation loss:  25.407757
+epoch:  4000 training loss:  38.142906  validation loss:  38.77251
+epoch 4000: pass
+epoch:  4050 training loss:  37.286274  validation loss:  28.597607
+epoch:  4100 training loss:  36.907658  validation loss:  70.199936
+epoch:  4150 training loss:  36.78498  validation loss:  148.18552
+epoch:  4200 training loss:  36.774807  validation loss:  51.89514
+epoch 4200: pass
+epoch:  4250 training loss:  36.817165  validation loss:  49.985603
+epoch:  4300 training loss:  36.88612  validation loss:  60.01643
+epoch:  4350 training loss:  36.969597  validation loss:  48.056137
+epoch:  4400 training loss:  37.061638  validation loss:  126.513504
+epoch 4400: pass
+epoch:  4450 training loss:  37.15892  validation loss:  47.714104
+epoch:  4500 training loss:  37.259624  validation loss:  35.864143
+epoch:  4550 training loss:  37.36245  validation loss:  35.960682
+epoch:  4600 training loss:  37.466373  validation loss:  148.97423
+epoch 4600: pass
+epoch:  4650 training loss:  37.570305  validation loss:  48.859924
+epoch:  4700 training loss:  37.669636  validation loss:  36.926094
+epoch:  4750 training loss:  37.751987  validation loss:  96.19856
+epoch:  4800 training loss:  37.851887  validation loss:  11.4789715
+epoch 4800: pass
+epoch:  4850 training loss:  37.952522  validation loss:  40.697113
+epoch:  4900 training loss:  38.05375  validation loss:  50.91973
+epoch:  4950 training loss:  38.155636  validation loss:  59.813766
+epoch:  5000 training loss:  38.25827  validation loss:  32.43788
+epoch 5000: pass
+epoch:  5050 training loss:  38.361694  validation loss:  65.99386
+epoch:  5100 training loss:  38.46588  validation loss:  17.771015
+epoch:  5150 training loss:  38.57093  validation loss:  24.488655
+epoch:  5200 training loss:  38.676796  validation loss:  81.86909
+epoch 5200: pass
+epoch:  5250 training loss:  38.783375  validation loss:  68.06665
+epoch:  5300 training loss:  38.890636  validation loss:  69.96115
+epoch:  5350 training loss:  38.998573  validation loss:  24.614553
+epoch:  5400 training loss:  39.106884  validation loss:  68.802475
+epoch 5400: pass
+epoch:  5450 training loss:  39.21546  validation loss:  52.06858
+epoch:  5500 training loss:  39.324158  validation loss:  38.227615
+epoch:  5550 training loss:  39.432877  validation loss:  101.581024
+epoch:  5600 training loss:  39.541336  validation loss:  34.724976
+epoch 5600: pass
+epoch:  5650 training loss:  39.649483  validation loss:  102.20433
+epoch:  5700 training loss:  39.75727  validation loss:  44.78101
+epoch:  5750 training loss:  39.864586  validation loss:  44.874767
+epoch:  5800 training loss:  39.97145  validation loss:  32.949043
+epoch 5800: pass
+epoch:  5850 training loss:  40.077812  validation loss:  80.39137
+epoch:  5900 training loss:  40.183628  validation loss:  8.358892
+epoch:  5950 training loss:  40.289  validation loss:  63.99806
+epoch:  6000 training loss:  40.393913  validation loss:  77.11539
+epoch 6000: pass
+epoch:  6050 training loss:  40.498425  validation loss:  38.77957
+epoch:  6100 training loss:  40.602478  validation loss:  81.882355
+epoch:  6150 training loss:  40.705917  validation loss:  64.469574
+epoch:  6200 training loss:  40.808697  validation loss:  52.271637
+epoch 6200: pass
+epoch:  6250 training loss:  40.91037  validation loss:  13.550668
+epoch:  6300 training loss:  41.010986  validation loss:  11.816605
+epoch:  6350 training loss:  41.111656  validation loss:  48.349457
+epoch:  6400 training loss:  41.21241  validation loss:  33.385544
+epoch 6400: pass
+epoch:  6450 training loss:  41.313236  validation loss:  122.1016
+epoch:  6500 training loss:  41.413906  validation loss:  64.63266
+epoch:  6550 training loss:  41.514404  validation loss:  17.977455
+epoch:  6600 training loss:  41.614582  validation loss:  87.159256
+epoch 6600: pass
+epoch:  6650 training loss:  41.71446  validation loss:  39.0832
+epoch:  6700 training loss:  41.813957  validation loss:  108.65517
+epoch:  6750 training loss:  41.913063  validation loss:  29.411177
+epoch:  6800 training loss:  42.011658  validation loss:  8.7958975
+epoch 6800: pass
+epoch:  6850 training loss:  42.109688  validation loss:  42.051437
+epoch:  6900 training loss:  42.207245  validation loss:  18.28509
+epoch:  6950 training loss:  42.30414  validation loss:  42.294865
+epoch:  7000 training loss:  42.40038  validation loss:  110.46007
+epoch 7000: pass
+epoch:  7050 training loss:  42.495964  validation loss:  65.98549
+epoch:  7100 training loss:  42.590828  validation loss:  43.687885
+epoch:  7150 training loss:  42.685036  validation loss:  74.24803
+epoch:  7200 training loss:  42.778526  validation loss:  77.00098
+epoch 7200: pass
+epoch:  7250 training loss:  42.8713  validation loss:  36.9804
+epoch:  7300 training loss:  42.96341  validation loss:  150.4906
+epoch:  7350 training loss:  43.054855  validation loss:  41.824093
+epoch:  7400 training loss:  43.14564  validation loss:  18.599676
+epoch 7400: pass
+epoch:  7450 training loss:  43.235817  validation loss:  50.606163
+epoch:  7500 training loss:  43.32535  validation loss:  31.31392
+epoch:  7550 training loss:  43.414326  validation loss:  37.33278
+epoch:  7600 training loss:  43.5028  validation loss:  67.23532
+epoch 7600: pass
+epoch:  7650 training loss:  43.59076  validation loss:  31.427086
+epoch:  7700 training loss:  43.678196  validation loss:  34.914642
+epoch:  7750 training loss:  43.76513  validation loss:  31.501831
+epoch:  7800 training loss:  43.851646  validation loss:  88.16132
+epoch 7800: pass
+epoch:  7850 training loss:  43.937737  validation loss:  73.894165
+epoch:  7900 training loss:  44.02338  validation loss:  31.613102
+epoch:  7950 training loss:  44.108654  validation loss:  35.980812
+epoch:  8000 training loss:  44.193542  validation loss:  58.635605
+epoch 8000: pass
+epoch:  8050 training loss:  44.27805  validation loss:  10.136744
+epoch:  8100 training loss:  44.362236  validation loss:  47.758705
+epoch:  8150 training loss:  44.44606  validation loss:  66.30664
+epoch:  8200 training loss:  44.529472  validation loss:  80.76293
+epoch 8200: pass
+epoch:  8250 training loss:  44.61254  validation loss:  21.217604
+epoch:  8300 training loss:  44.69532  validation loss:  30.103813
+epoch:  8350 training loss:  44.777733  validation loss:  41.482433
+epoch:  8400 training loss:  44.85987  validation loss:  53.83333
+epoch 8400: pass
+epoch:  8450 training loss:  44.941628  validation loss:  49.595078
+epoch:  8500 training loss:  45.02304  validation loss:  10.964397
+epoch:  8550 training loss:  45.104057  validation loss:  19.094017
+epoch:  8600 training loss:  45.184826  validation loss:  62.590054
+epoch 8600: pass
+epoch:  8650 training loss:  45.265217  validation loss:  69.571815
+epoch:  8700 training loss:  45.345314  validation loss:  10.9210825
+epoch:  8750 training loss:  45.42497  validation loss:  11.014843
+epoch:  8800 training loss:  45.504303  validation loss:  58.75264
+epoch 8800: pass
+epoch:  8850 training loss:  45.58331  validation loss:  12.608643
+epoch:  8900 training loss:  45.662  validation loss:  11.167073
+epoch:  8950 training loss:  45.740257  validation loss:  63.297867
+epoch:  9000 training loss:  45.81816  validation loss:  77.00769
+epoch 9000: pass
+epoch:  9050 training loss:  45.895676  validation loss:  121.614685
+epoch:  9100 training loss:  45.972855  validation loss:  21.62323
+epoch:  9150 training loss:  46.04963  validation loss:  71.55615
+epoch:  9200 training loss:  46.1261  validation loss:  59.864952
+epoch 9200: pass
+epoch:  9250 training loss:  46.20215  validation loss:  77.64459
+epoch:  9300 training loss:  46.277805  validation loss:  37.378456
+epoch:  9350 training loss:  46.35315  validation loss:  70.809296
+epoch:  9400 training loss:  46.428085  validation loss:  30.429684
+epoch 9400: pass
+epoch:  9450 training loss:  46.50263  validation loss:  44.07121
+epoch:  9500 training loss:  46.576736  validation loss:  37.57038
+epoch:  9550 training loss:  46.650528  validation loss:  19.493448
+epoch:  9600 training loss:  46.72392  validation loss:  11.178795
+epoch 9600: pass
+epoch:  9650 training loss:  46.79696  validation loss:  14.22442
+epoch:  9700 training loss:  46.869637  validation loss:  52.135902
+epoch:  9750 training loss:  46.941895  validation loss:  60.332294
+epoch:  9800 training loss:  47.01384  validation loss:  52.404587
+epoch 9800: pass
+epoch:  9850 training loss:  47.085392  validation loss:  12.898603
+epoch:  9900 training loss:  47.15664  validation loss:  11.233832
+epoch:  9950 training loss:  47.22748  validation loss:  33.854004
